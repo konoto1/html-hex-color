@@ -10,3 +10,4 @@ const generateHexColor = () => {
 
 
 buttonDOM.addEventListener('click', generateHexColor);
+bodyDOM.addEventListener('mousewheel', generateHexColor);
